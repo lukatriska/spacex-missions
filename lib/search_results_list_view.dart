@@ -4,12 +4,10 @@ import 'package:graphql_flutter/graphql_flutter.dart';
 class SearchResultsListView extends StatefulWidget {
   final String searchTerm;
 
-//  final Function getSearchTerm;
 
   const SearchResultsListView({
     Key? key,
     required this.searchTerm,
-//    required this.getSearchTerm,
   }) : super(key: key);
 
   @override
